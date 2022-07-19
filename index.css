@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar a img {
+    position: absolute;
+    margin-top: -10px;
+  }
+
+  .navbar-toggler {
+    position: relative;
+    margin-top: 25px;
+    white-space: nowrap;
+  }
+  .line1 {
+    position: absolute;
+    top: 0px !important;
+    left: 250px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .navbar a img {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 25px;
+  }
+  .collapse ul {
+    position: absolute;
+    margin-top: 8em;
+    margin-left: 17em;
+  }
+  .collapse li a {
+    margin-left: 100px;
+    text-align: center;
+    color: black;
+  }
+  .btn-dark {
+    margin-left: 16em;
+    background-color: #232340;
+  }
+  .line1 {
+    position: absolute;
+    top: 0px !important;
+    left: 250px;
+  }
+}
