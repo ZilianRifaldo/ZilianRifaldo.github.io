@@ -3,13 +3,16 @@
   padding: 0;
 }
 
-body {
-  background-color: #ffffff;
+.body1 {
+  background-image: url(./src/bgp.svg);
+}
+.body2{
+  background-image: url();
 }
 
 @media screen and (max-width: 900px) {
   .navbar a img {
-    position: absolute;
+    position: sticky;
     margin-top: -10px;
   }
 
@@ -20,7 +23,7 @@ body {
   }
   .line1 {
     position: absolute;
-    top: 0px !important;
+    top: 0px ;
     left: 250px;
   }
 }
@@ -47,7 +50,19 @@ body {
   }
   .line1 {
     position: absolute;
-    top: 0px !important;
+    top: -20px ;
     left: 250px;
   }
+  
+}
+
+.box {
+  position: absolute;
+  top: 13em;
+  left: 109px;
+}
+.box {
+  position: absolute;
+  top: 13em;
+  left: 109px;
 }
