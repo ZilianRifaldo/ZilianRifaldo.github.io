@@ -41,21 +41,22 @@
 @media screen and (min-width: 1000px) {
   .navbar a img {
     position: absolute;
-    margin-top: 35px;
-    margin-left: 25px;
+    top: 45px;
+    left: 50px;
   }
   .collapse ul {
     position: absolute;
     margin-top: 8em;
-    margin-left: 17em;
+    margin-left: 20em;
   }
   .collapse li a {
-    margin-left: 100px;
+    margin-left: 110px;
     text-align: center;
     color: black;
   }
   .btn-dark {
-    margin-left: 16em;
+    margin-left: 15em;
+    padding: 15px 25px;
     background-color: #232340;
   }
   .line1 {
@@ -82,7 +83,20 @@
   line-height: 100px;
   letter-spacing: -1px;
 }
+.con1 p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+.con1 button {
+  margin-top: 20px;
+  width: 180px;
+  height: 64px;
+}
 .gcom {
   position: relative;
   top: -15px;
+  left: -30px;
 }
