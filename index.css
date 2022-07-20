@@ -6,7 +6,7 @@
 .body1 {
   position: absolute;
   background: #ffffff;
-  width: 100%;
+  width: 1518px;
   height: 1024px;
   left: 0px;
   top: 0px;
@@ -14,7 +14,7 @@
 .body2 {
   position: absolute;
   background: #232340;
-  width: 100%;
+  width: 1518px;
   height: 1670px;
   left: 0px;
   top: 1064px;
@@ -99,4 +99,161 @@
   position: relative;
   top: -15px;
   left: -30px;
+}
+
+/* page2 */
+.smlgo img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 135px;
+  left: 135px;
+}
+
+.smlgo .p1 {
+  position: absolute;
+  font-family: sans-serif;
+  font-style: normal;
+  color: #8b8b8b;
+  height: 24px;
+  top: 135px;
+  left: 349px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+.smlgo .p2 {
+  position: absolute;
+  font-family: sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  height: 24px;
+  top: 135px;
+  left: 408px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+.smlgo h1 {
+  position: absolute;
+  font-family: sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  width: 678px;
+  height: 144px;
+  top: 220px;
+  left: 350px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  z-index: 3;
+}
+.bg3d {
+  position: absolute;
+  width: 802px;
+  height: 1052px;
+  left: 716px;
+  top: -70px;
+  z-index: 1;
+}
+.line2 {
+  position: absolute;
+  width: 487px;
+  height: 785;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.a1 img {
+  position: relative;
+  width: 24px;
+  height: 4px;
+  top: 530px;
+  left: 140px;
+  margin-top: 37px;
+}
+
+.a1 p {
+  position: relative;
+  font-family: sans-serif;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+  width: 41px;
+  height: 24px;
+  line-height: 24px;
+  top: 479px;
+  left: 210px;
+  margin-top: 37px;
+}
+.desktop {
+  position: absolute;
+  width: 970px;
+  height: 598px;
+  top: 507px;
+  left: 360px;
+  z-index: 2;
+}
+.pointl {
+  position: absolute;
+  width: 130px;
+  height: 16px;
+  top: 914px;
+  left: 300px;
+  z-index: 3;
+}
+
+.context img {
+  position: absolute;
+  width: 2px;
+  height: 80px;
+  left: 38px;
+  top: 1050px;
+}
+
+.context h1 {
+  position: absolute;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  width: 468px;
+  height: 80px;
+  left: 260px;
+  top: 1050px;
+  letter-spacing: -0.5px;
+}
+.context p{
+  position: absolute;
+  font-family: sans-serif;
+  font-style: normal;
+  color: #8b8b8b;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  width: 468px;
+  height: 96px;
+  left: 260px;
+  top: 1180px;
+}
+.context button {
+  position: absolute;
+  font-family: sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  width: 180px;
+  height: 64px;
+  left: 260px;
+  top: 1330px;
+}
+.number{
+  position: absolute;
+  width: 402px;
+  height: 402px;
+  left: 764px;
+  top: 995px;
 }
