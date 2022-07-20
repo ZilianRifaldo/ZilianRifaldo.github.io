@@ -19,6 +19,13 @@
   left: 0px;
   top: 1064px;
 }
+.body3 {
+  position: absolute;
+  background: #ffffff;
+  width: 1518px;
+  left: 0px;
+  top: 2734px;
+}
 
 @media screen and (max-width: 900px) {
   .navbar a img {
@@ -64,53 +71,208 @@
     top: -20px;
     left: 250px;
   }
+  .box {
+    position: absolute;
+    top: 13em;
+    left: 109px;
+  }
+  .con1 {
+    position: relative;
+    width: 30em;
+  }
+  .con1 h1 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 100px;
+    letter-spacing: -1px;
+  }
+  .con1 p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .con1 button {
+    margin-top: 20px;
+    width: 180px;
+    height: 64px;
+  }
+  .gcom {
+    position: relative;
+    top: -15px;
+    left: -30px;
+  }
+
+  /* page2 */
+  .smlgo img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 135px;
+    left: 135px;
+  }
+
+  .smlgo .p1 {
+    position: absolute;
+    font-family: sans-serif;
+    font-style: normal;
+    color: #8b8b8b;
+    height: 24px;
+    top: 135px;
+    left: 349px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .smlgo .p2 {
+    position: absolute;
+    font-family: sans-serif;
+    font-style: normal;
+    color: #ffffff;
+    height: 24px;
+    top: 135px;
+    left: 408px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .smlgo h1 {
+    position: absolute;
+    font-family: sans-serif;
+    font-style: normal;
+    color: #ffffff;
+    width: 678px;
+    height: 144px;
+    top: 220px;
+    left: 350px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    z-index: 3;
+  }
+  .bg3d {
+    position: absolute;
+    width: 802px;
+    height: 1052px;
+    left: 716px;
+    top: -70px;
+    z-index: 1;
+  }
+  .line2 {
+    position: absolute;
+    width: 487px;
+    height: 785;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+  }
+  .a1 img {
+    position: relative;
+    width: 24px;
+    height: 4px;
+    top: 530px;
+    left: 140px;
+    margin-top: 37px;
+  }
+
+  .a1 p {
+    position: relative;
+    font-family: sans-serif;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+    width: 41px;
+    height: 24px;
+    line-height: 24px;
+    top: 479px;
+    left: 210px;
+    margin-top: 37px;
+  }
+  .desktop {
+    position: absolute;
+    width: 970px;
+    height: 598px;
+    top: 507px;
+    left: 360px;
+    z-index: 2;
+  }
+  .pointl {
+    position: absolute;
+    width: 130px;
+    height: 16px;
+    top: 914px;
+    left: 300px;
+    z-index: 3;
+  }
+
+  .context img {
+    position: absolute;
+    width: 2px;
+    height: 80px;
+    left: 38px;
+    top: 1050px;
+  }
+
+  .context h1 {
+    position: absolute;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    width: 468px;
+    height: 80px;
+    left: 260px;
+    top: 1050px;
+    letter-spacing: -0.5px;
+  }
+  .context p {
+    position: absolute;
+    font-family: sans-serif;
+    font-style: normal;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    width: 468px;
+    height: 96px;
+    left: 260px;
+    top: 1180px;
+  }
+  .context button {
+    position: absolute;
+    font-family: sans-serif;
+    font-style: normal;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    width: 180px;
+    height: 64px;
+    left: 260px;
+    top: 1330px;
+  }
+  .number {
+    position: absolute;
+    width: 402px;
+    height: 402px;
+    left: 764px;
+    top: 995px;
+  }
 }
 
-.box {
-  position: absolute;
-  top: 13em;
-  left: 109px;
-}
-.con1 {
-  position: relative;
-  width: 30em;
-}
-.con1 h1 {
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 84px;
-  line-height: 100px;
-  letter-spacing: -1px;
-}
-.con1 p {
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
-}
-.con1 button {
-  margin-top: 20px;
-  width: 180px;
-  height: 64px;
-}
-.gcom {
-  position: relative;
-  top: -15px;
-  left: -30px;
-}
-
-/* page2 */
-.smlgo img {
+/* page 3 */
+.smlgo1 img {
   position: absolute;
   width: 24px;
   height: 24px;
   top: 135px;
   left: 135px;
 }
-
-.smlgo .p1 {
+.smlgo1 .p1 {
   position: absolute;
   font-family: sans-serif;
   font-style: normal;
@@ -122,7 +284,7 @@
   font-size: 18px;
   line-height: 24px;
 }
-.smlgo .p2 {
+.smlgo1 .p2 {
   position: absolute;
   font-family: sans-serif;
   font-style: normal;
@@ -134,126 +296,164 @@
   font-size: 18px;
   line-height: 24px;
 }
-.smlgo h1 {
+.smlgo1 h1 {
   position: absolute;
   font-family: sans-serif;
   font-style: normal;
-  color: #ffffff;
+  color: #232340;
   width: 678px;
   height: 144px;
-  top: 220px;
-  left: 350px;
+  top: 190px;
+  left: 345px;
   font-weight: 700;
-  font-size: 64px;
-  line-height: 72px;
-  z-index: 3;
+  font-size: 84px;
+  line-height: 100px;
+  letter-spacing: -1px;
 }
-.bg3d {
-  position: absolute;
-  width: 802px;
-  height: 1052px;
-  left: 716px;
-  top: -70px;
-  z-index: 1;
-}
-.line2 {
-  position: absolute;
-  width: 487px;
-  height: 785;
-  top: 0px;
-  left: 0px;
-  z-index: 1;
-}
-.a1 img {
-  position: relative;
-  width: 24px;
-  height: 4px;
-  top: 530px;
-  left: 140px;
-  margin-top: 37px;
-}
-
-.a1 p {
-  position: relative;
-  font-family: sans-serif;
-  font-style: normal;
-  color: rgba(255, 255, 255, 0.6);
-  width: 41px;
-  height: 24px;
-  line-height: 24px;
-  top: 479px;
-  left: 210px;
-  margin-top: 37px;
-}
-.desktop {
-  position: absolute;
-  width: 970px;
-  height: 598px;
-  top: 507px;
-  left: 360px;
-  z-index: 2;
-}
-.pointl {
-  position: absolute;
-  width: 130px;
-  height: 16px;
-  top: 914px;
-  left: 300px;
-  z-index: 3;
-}
-
-.context img {
-  position: absolute;
-  width: 2px;
-  height: 80px;
-  left: 38px;
-  top: 1050px;
-}
-
-.context h1 {
+.smlgo1 .p3 {
   position: absolute;
   font-family: sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 40px;
-  width: 468px;
-  height: 80px;
-  left: 260px;
-  top: 1050px;
-  letter-spacing: -0.5px;
-}
-.context p{
-  position: absolute;
-  font-family: sans-serif;
-  font-style: normal;
-  color: #8b8b8b;
+  color: #606060;
+  width: 474px;
+  height: 64px;
+  top: 335px;
+  left: 345px;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
-  width: 468px;
-  height: 96px;
-  left: 260px;
-  top: 1180px;
 }
-.context button {
+
+.ln1 {
+  position: absolute;
+  width: 859px;
+  height: 981px;
+  left: 660px;
+  top: 200px;
+  z-index: 1;
+}
+.ln2 {
+  position: absolute;
+  width: 643px;
+  height: 819px;
+  left: -0px;
+  top: 700px;
+  z-index: 1;
+}
+
+.slide1 {
+  position: absolute;
+  width: 367px;
+  height: 500px;
+  top: 510px;
+  left: 349px;
+  z-index: 2;
+}
+.slide1 .g2 {
+  position: absolute;
+  width: 573px;
+  height: 410px;
+  top: 50px;
+  left: -97px;
+  z-index: 3;
+}
+.slide1 .g3 {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 380px;
+  left: 335px;
+  z-index: 3;
+}
+.slide1 .g4 {
+  position: absolute;
+  width: 166px;
+  height: 40px;
+  top: 50px;
+  left: -40px;
+  z-index: 3;
+}
+.slide1 h1 {
+  position: absolute;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  color: black;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  width: 467px;
+  height: 48px;
+  letter-spacing: -0.4px;
+  top: 530px;
+}
+.slide1 p {
   position: absolute;
   font-family: sans-serif;
   font-style: normal;
-  color: #ffffff;
-  font-weight: 700;
+  color: #606060;
+  font-weight: 400;
   font-size: 18px;
-  line-height: 24px;
-  text-align: center;
-  width: 180px;
-  height: 64px;
-  left: 260px;
-  top: 1330px;
+  line-height: 32px;
+  width: 366px;
+  height: 96px;
+  top: 600px;
 }
-.number{
+.slide2 {
   position: absolute;
-  width: 402px;
-  height: 402px;
-  left: 764px;
-  top: 995px;
+  width: 367px;
+  height: 500px;
+  top: 510px;
+  left: 900px;
+  z-index: 2;
+}
+
+.slide2 .g2 {
+  position: absolute;
+  width: 573px;
+  height: 410px;
+  top: 50px;
+  left: -97px;
+  z-index: 2;
+}
+.slide2 .g3 {
+  position: absolute;
+  width: 545px;
+  height: 390px;
+  top: 65px;
+  left: -90px;
+  z-index: 3;
+}
+.slide2 .g4 {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 380px;
+  left: 335px;
+  z-index: 3;
+}
+
+.slide2 h1 {
+  position: absolute;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  color: black;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  width: 467px;
+  height: 48px;
+  letter-spacing: -0.4px;
+  top: 530px;
+}
+.slide2 p {
+  position: absolute;
+  font-family: sans-serif;
+  font-style: normal;
+  color: #606060;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  width: 366px;
+  height: 96px;
+  top: 600px;
 }
