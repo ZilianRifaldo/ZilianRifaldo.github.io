@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  width: 100%;
+}
 
 .body1 {
   position: absolute;
@@ -52,20 +55,185 @@
   top: 7500px;
 }
 @media screen and (max-width: 900px) {
-  .navbar a img {
-    position: sticky;
-    margin-top: -10px;
+  .body1 {
+    position: absolute;
+    background: #ffffff;
+    width: 375px;
+    height: 112px;
+    left: 0px;
+    top: 0px;
   }
-
+  .navbar a img {
+    position: absolute;
+    width: 127.2px;
+    height: 32px;
+    left: 32px;
+    top: 52px;
+  }
   .navbar-toggler {
-    position: relative;
-    margin-top: 25px;
-    white-space: nowrap;
+    position: absolute;
+    width: 375px;
+    height: 128px;
+    left: 270px;
+    top: 5px;
   }
   .line1 {
     position: absolute;
-    top: 0px;
-    left: 250px;
+    width: 456.68px;
+    height: 582.58px;
+    left: 176px;
+    top: -15.31px;
+  }
+
+  .box {
+    position: absolute;
+    width: 411px;
+    height: 356px;
+    left: 32px;
+    top: 128px;
+  }
+  .con1 .scroll {
+    opacity: 0;
+  }
+  .gcom img {
+    position: absolute;
+    width: 387px;
+    height: 463.51px;
+    left: 95px;
+    top: 260px;
+  }
+
+  .body2 {
+    position: absolute;
+    width: 500px;
+    height: 1681px;
+    left: 0px;
+    top: 775px;
+  }
+
+  .smlgo img {
+    opacity: 0;
+  }
+
+  .smlgo .p1 {
+    position: absolute;
+    font-family: sans-serif;
+    font-style: normal;
+    color: #8b8b8b;
+    height: 18px;
+    top: 60px;
+    left: 50px;
+    right: 83.82%;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .smlgo .p2 {
+    position: absolute;
+    font-family: sans-serif;
+    font-style: normal;
+    color: #ffffff;
+    height: 18px;
+    left: 100px;
+    right: 0%;
+    top: 57px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .smlgo h1 {
+    position: absolute;
+    font-family: sans-serif;
+    font-style: normal;
+    color: #ffffff;
+    width: 426px;
+    height: 192px;
+    left: 50px;
+    top: 120px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    z-index: 3;
+  }
+  .bg3d {
+    opacity: 0;
+  }
+  .line2 {
+    opacity: 0;
+  }
+  .a1 img {
+    opacity: 0;
+  }
+
+  .a1 p {
+    opacity: 0;
+  }
+
+  .desktop {
+    position: absolute;
+    width: 738px;
+    height: 524px;
+    left: -80px;
+    top: 562px;
+  }
+  .pointl {
+    opacity: 0;
+  }
+
+  .context img {
+    position: absolute;
+    width: 2px;
+    height: 80px;
+    left: 38px;
+    top: 1050px;
+  }
+
+  .context h1 {
+    position: absolute;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    width: 468px;
+    height: 80px;
+    left: 260px;
+    top: 1050px;
+    letter-spacing: -0.5px;
+  }
+  .context p {
+    position: absolute;
+    font-family: sans-serif;
+    font-style: normal;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    width: 468px;
+    height: 96px;
+    left: 260px;
+    top: 1180px;
+  }
+  .context button {
+    position: absolute;
+    font-family: sans-serif;
+    font-style: normal;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    width: 180px;
+    height: 64px;
+    left: 260px;
+    top: 1330px;
+  }
+  .number {
+    position: absolute;
+    width: 402px;
+    height: 402px;
+    left: 764px;
+    top: 995px;
   }
 }
 
@@ -746,7 +914,7 @@
     top: 50px;
     z-index: 1;
   }
-  
+
   .card1 h1 {
     position: absolute;
     font-family: sans-serif;
