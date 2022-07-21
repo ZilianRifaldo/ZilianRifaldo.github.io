@@ -1068,10 +1068,47 @@
   left: -150px;
   top: 230px;
 }
+.foo_content .line {
+  position: absolute;
+  width: 542.21px;
+  height: 619.25px;
+  top: -190px;
+  left: 230px;
+}
 .copyright {
   position: absolute;
   width: 1170px;
   height: 51px;
   left: 135px;
   top: 1480px;
+}
+
+.sosmed {
+  position: absolute;
+  width: fit-content;
+  left: 1090px;
+}
+.follow {
+  position: absolute;
+  width: fit-content;
+  left: 950px;
+}
+
+.sosmed .g1 {
+  position: absolute;
+  width: fit-content;
+  top: 5px;
+  left: 0px;
+}
+.sosmed .g2 {
+  position: absolute;
+  width: fit-content;
+  top: 6px;
+  left: 30px;
+}
+.sosmed .g3 {
+  position: absolute;
+  width: fit-content;
+  top: 4px;
+  left: 60px;
 }
