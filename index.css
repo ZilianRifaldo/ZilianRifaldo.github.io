@@ -914,8 +914,164 @@
 }
 
 /* page 6 */
-.cta{
+.smlgo6 .b1 {
   position: absolute;
+  width: 1296px;
+  height: 1024px;
+  left: 115px;
   top: 0px;
-  left: 110px;
+  z-index: 1;
+}
+.smlgo6 .l1 {
+  position: absolute;
+  width: 642px;
+  height: 819px;
+  left: 300px;
+  top: 0px;
+  z-index: 2;
+}
+.smlgo6 .l2 {
+  position: absolute;
+  width: 1342px;
+  height: 1419px;
+  left: 106px;
+  top: -200px;
+  z-index: 2;
+}
+.smlgo6 .l3 {
+  position: absolute;
+  width: 350px;
+  height: 520px;
+  left: 580px;
+  top: 510px;
+  z-index: 2;
+}
+.smlgo6 .logo {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 745px;
+  top: 128px;
+  z-index: 3;
+}
+.smlgo6 .p1 {
+  position: absolute;
+  color: #ffffff;
+  width: 102px;
+  height: 24px;
+  left: 703px;
+  top: 192px;
+  z-index: 3;
+}
+.smlgo6 .p2 {
+  position: absolute;
+  font-family: sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  width: 568px;
+  height: 80px;
+  left: 475px;
+  top: 256px;
+  z-index: 3;
+}
+.smlgo6 .h1 {
+  position: absolute;
+  font-family: sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  letter-spacing: -0.5px;
+  width: 367px;
+  height: 216px;
+  left: 270px;
+  top: 646px;
+  z-index: 3;
+}
+.smlgo6 .b2 {
+  position: absolute;
+  width: 103px;
+  height: 103px;
+  left: 878px;
+  top: 646px;
+  z-index: 3;
+}
+.smlgo6 .p3 {
+  position: absolute;
+  font-family: sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  width: 367px;
+  height: 80px;
+  left: 878px;
+  top: 786px;
+  z-index: 3;
+}
+.smlgo6 .s1 {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 1239px;
+  top: 786px;
+  z-index: 3;
+}
+.footer {
+  position: absolute;
+  background-color: #ffffff;
+  width: 1518px;
+  height: 491px;
+  left: 0px;
+  top: 1023px;
+}
+
+.foo_content {
+  position: absolute;
+  width: 565px;
+  height: 232px;
+  left: 743px;
+  top: 128px;
+}
+.foo_content .logo {
+  position: absolute;
+  width: 191px;
+  height: 48px;
+  left: -81px;
+  top: 0px;
+}
+.foo_content .p1 {
+  position: absolute;
+  font-family: sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #606060;
+  width: 565px;
+  height: 64px;
+  left: -271px;
+  top: 100px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+.foo_content .new {
+  position: absolute;
+  width: 392px;
+  height: 24px;
+  left: -150px;
+  top: 230px;
+}
+.copyright {
+  position: absolute;
+  width: 1170px;
+  height: 51px;
+  left: 135px;
+  top: 1480px;
 }
